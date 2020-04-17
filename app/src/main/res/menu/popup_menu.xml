@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/high"
+        android:title="Low sensor sensitivity"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        />
+
+
+    <item
+        android:id="@+id/low"
+        android:title="High sensor sensitivity"
+        android:visible="true"
+        android:checkable="true"
+        app:showAsAction="never"
+
+        />
+
+</menu>
